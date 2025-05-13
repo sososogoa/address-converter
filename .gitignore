@@ -1,0 +1,67 @@
+# === Root ===
+.env
+address-converter-client/.env
+address-converter-server/.env
+.DS_Store
+
+# === Client Ignore Rules (address-converter-client) ===
+address-converter-client/node_modules/
+address-converter-client/dist/
+address-converter-client/dist-ssr/
+address-converter-client/*.log
+address-converter-client/npm-debug.log*
+address-converter-client/yarn-debug.log*
+address-converter-client/yarn-error.log*
+address-converter-client/pnpm-debug.log*
+address-converter-client/lerna-debug.log*
+address-converter-client/*.local
+
+# Client Editor
+address-converter-client/.vscode/*
+!address-converter-client/.vscode/extensions.json
+address-converter-client/.idea
+address-converter-client/*.suo
+address-converter-client/*.ntvs*
+address-converter-client/*.njsproj
+address-converter-client/*.sln
+address-converter-client/*.sw?
+
+# === Server Ignore Rules (address-converter-server) ===
+address-converter-server/HELP.md
+address-converter-server/.gradle/
+address-converter-server/build/
+!address-converter-server/gradle/wrapper/gradle-wrapper.jar
+!address-converter-server/**/src/main/**/build/
+!address-converter-server/**/src/test/**/build/
+
+# Server STS
+address-converter-server/.apt_generated
+address-converter-server/.classpath
+address-converter-server/.factorypath
+address-converter-server/.project
+address-converter-server/.settings
+address-converter-server/.springBeans
+address-converter-server/.sts4-cache
+address-converter-server/bin/
+!address-converter-server/**/src/main/**/bin/
+!address-converter-server/**/src/test/**/bin/
+
+# Server IntelliJ
+address-converter-server/.idea
+address-converter-server/*.iws
+address-converter-server/*.iml
+address-converter-server/*.ipr
+address-converter-server/out/
+!address-converter-server/**/src/main/**/out/
+!address-converter-server/**/src/test/**/out/
+
+# Server NetBeans
+address-converter-server/nbproject/private/
+address-converter-server/nbbuild/
+address-converter-server/dist/
+address-converter-server/nbdist/
+address-converter-server/.nb-gradle/
+
+# Server VS Code
+address-converter-server/.vscode/
+address-converter-server/bin/
